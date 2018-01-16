@@ -40,6 +40,7 @@ This should pull the latest notebooks and you'll up-to-date.
 
 To stay up to date on Azure open a "Terminal."  Then type
 
+    cd library
     git pull
 
 This should pull the latest notebooks and you'll be up-to-date. 
@@ -89,6 +90,7 @@ Now select the renamed notebook and type "Run".
 
 This is an overview directories and files contained within are described.
 
-1. introToSeismology.ipynb - A quick introductory script to basic Python.
-2. nisqually.ipynb - This is the Nisqually 2001 event recorded at station KEV.  It is an introduction to waveform interpretation and major seismic signals that we'll discuss in the class. 
+1. introToPython contains a very simple introToPython.ipynb notebook which provides a very brief overview of Python.
+2. nisqually contains nisqually.ipynb - This is the Nisqually 2001 event recorded at station KEV.  It is an introduction to waveform interpretation and major seismic signals that we'll discuss in the class. 
+3. reflectionCoeffs contains reflectionAndTransmissionCoefficients.ipynb and does simple solid-solid interface reflection coefficient calculations.
 
