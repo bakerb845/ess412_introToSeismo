@@ -44,6 +44,19 @@ To stay up to date on Azure open a "Terminal."  Then type
 
 This should pull the latest notebooks and you'll be up-to-date. 
 
+### Git is sassing you
+
+You probably modified a file without changing the name/copying it to your local directory.  In git's complaints will likely be offending file names.  Let's say nisqually.ipynb is causing issues.  You can do a few things here.
+
+1.  Change the offending file names
+
+    mv niqually.ipynb to nisqually_myName.ipynb
+
+2.  Commit your change.  This may ultimately lead to a merge conflict but git can be pretty clever so give it a try.
+
+    git add nisqually.ipynb
+    git commit -m "I've modified this file."
+
 ## Usage
 
 Here are some ideas on usage for those working at a terminal and those working on Azure.
