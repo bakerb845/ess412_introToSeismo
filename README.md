@@ -8,12 +8,15 @@ These are intended to be run with Python 3.x where x can be 4 or 5.  These shoul
 
 These are Python3.5 notebooks.  They will subsequently require
 
-1. Python version 3.5.  Version 3.4 may also work.  The 2.x series is being deprecated so I'm trying to avoid it.
+1. Python version 3.5.  Version 3.6 may also work.  The 2.x series is being deprecated so I'm trying to avoid it.
 2. [ObsPy](https://github.com/obspy/obspy/wiki).
 3. [Jupyter] notebooks.
 4. [Git](https://git-scm.com/).
+5. [basemap](https://matplotlib.org/basemap/)
 
-Optional - I strongly recommend installing Python with [Anaconda](https://conda.io/docs/user-guide/install/index.html).
+Optional - I strongly recommend installing Python with [Anaconda](https://conda.io/docs/user-guide/install/index.html).  In this instance you'll end up with Python3.6 and have to add
+
+    conda config --add channels conda-forge
 
 Alternatively, you can use these notebooks in a cloud environment via [Microsoft Azure](https://notebooks.azure.com).  However, this will require that you register with Microsoft.
 
