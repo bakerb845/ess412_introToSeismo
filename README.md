@@ -55,7 +55,7 @@ You probably modified a file without changing the name/copying it to your local 
 (2)  Commit your change.  This may ultimately lead to a merge conflict but git can be pretty clever so give it a try.
 
     git add nisqually.ipynb
-    git commit -m "I've modified this file."
+    git commit -m "I've modified this file while doing my homework.  Maybe I'll follow the directions next time."
 
 ## Usage
 
